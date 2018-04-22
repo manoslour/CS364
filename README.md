@@ -5,9 +5,9 @@ Concept, design, implementation and evaluation of a Graphical User Interface of 
 * For a mobile device (smartphone)
 
 4 + 2 screens minimum
- * 4 web (or mobile) + 2 mobile (or web)
- * Home, Category, Product / Item, Search Results
- * Topic to be determined by students and approved by TAs
+* 4 web (or mobile) + 2 mobile (or web)
+* Home, Category, Product / Item, Search Results
+* Topic to be determined by students and approved by TAs
  
 The process includes four (4) phases:
 1. Ideation / Conceptualization / Proposal
