@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+
+
+    <meta name="author" content="Team 8" />
+    <meta name="keywords" lang="en" content="web programming,CS,UOC,hy364,HCI" />
+    <meta http-equiv="content-type" content="text/html" />
+    <title>🎬 Movie Me</title>
+</head>
+
+<body style="background-color:#E5E5E5;">
+    <!-- NavBar Code -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-film fa-lg"></i>
+            MovieMe
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link active" href="homepage.html">Home</a>
+                <a class="nav-item nav-link" href="discoverPage.html">Discover</a>
+                <a class="nav-item nav-link" href="#">Mood</a>
+                <a class="nav-item nav-link" href="#">Library</a>
+            </div>
+            <!--Search-->
+            <form class="form-inline">
+                <input class="form-control form-control-sm mr-sm-1" type="search" placeholder="Search">
+                <button type="button" onclick="location.href = 'searchPage.html';" class="btn btn-sm btn-dark mr-4">
+                    <i class="fas fa-search fa-lg"></i>
+                </button>
+            </form>
+            <!--User Dropdown-->
+            <div class="dropdown">
+                    <a class="btn btn-sm btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                            <!--<i class="fas fa-user-circle fa-2x">-->
+                            <img src="adele-exarchopoulos.jpg" style="border-radius: 50%; height:40px; width:40px;">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Notifications <span class="badge badge-info">9</span></a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="homepageSignOut.html">Sign Out</a>
+                    </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="homepage.html" style="color: black;">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="discoverPage.html" style="color: black;">Discover</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="discoverPage.html" style="color: black;">Movies</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+            <a href="web_productpage.html" style="color: gray;">Blue is the warmest color</a></li>
+    </ol>
+
+    <div class="d-flex .justify-content-md-between">
+        <div>
+            <div class="col">
+                <div class="row">
+                    <div class="col col-md-8 pl-0">
+                        <img src="blue.png" alt="Blue">
+                    </div>
+                </div>
+                <div class="row pl-4 py-3" style="background-color: #C4C4C4; width:778px; align-content: center;">
+                    <p>
+                        Emma, a free minded girl with blue hair, influences Adele’s life dramatically, teaching her how to be honest with herself
+                        and discover her true desires about love. The film beautifully and realistically portrays the evolution
+                        of Adele, from a highschool girl to a grown-up woman, even though the spirit which Emma lighted up
+                        in her never dies. Blue Is the Warmest Color or La Vie d’Adèle is a very honest, intense, and charming
+                        picture, prepare not to blink much and have your face glued to screen from start to finish.
+                    </p>
+                    <i class="fas fa-caret-down fa-md pl-1 pt-0">See more</i>
+                </div>
+
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+
+                <div class="row flex-row flex-nowrap pl-1 pr-4" style=" width:793px; align-content: center;">
+                    <!--<div class="container-fluid">-->
+                    <div class="d-flex .justify-content-md-between">
+                        <div>
+                            <div class="col-auto">
+                                <div class="card card-block border-0">
+                                    <img src="73lahaine.jpg" alt="La haine" height="180" width="230">
+                                    <div class="card-body" align="center">
+                                        <h5 class="card-title">La haine</h5>
+                                        <p class="card-text">(1995)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="col-auto">
+                                <div class="card card-block border-0">
+                                    <img src="afterthemads.jpg" alt="After the wedding" height="180" width="230">
+                                    <div class="card-body" align="center">
+                                        <h5 class="card-title">After the wedding</h5>
+                                        <p class="card-text">(2006)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="col-auto">
+                                <div class="card card-block border-0">
+                                    <img src="mommy.jpg" alt="Mommy" height="180" width="230">
+                                    <div class="card-body" align="center">
+                                        <h5 class="card-title">Mommy</h5>
+                                        <p class="card-text">(2014)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--</div>-->
+                </div>
+                <br>
+                <div class="row" style="align-content: center;">
+                    <div class=col>
+                        <nav aria-label="Page navigation example"style="color:black;">
+                            <ul class="pagination justify-content-center" >
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="col"></div>
+        </div>
+        <div>
+            <div class="col">
+                <div class="row">
+                    <!--<a href="https://www.youtube.com/watch?v=EO0abB6gJEw"><img src="trailer.png" alt="Trailer" style="vertical-align: left;"></a>-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EO0abB6gJEw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row" style="background-color:#C4C4C4;">
+                    &nbsp;
+                    <h4>Available on:</h4>
+                    <div class="icon-bar">
+                        <br>
+                        <br>
+                        <a href="#">
+                            <img src="netflix.png" alt="netflix" style="border-radius: 5px;" height="80" width="80">
+                        </a>
+                        <a href="#">
+                            <img src="hulu-icon.png" alt="netflix" style="border-radius: 5px;" height="80" width="80">
+                        </a>
+                        <a href="#">
+                            <img src="popcorn.png" alt="netflix" style="border-radius: 5px;" height="80" width="80">
+                        </a>
+                        <br>&nbsp; &nbsp; Netflix&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Hulu &nbsp; &nbsp;&nbsp; &nbsp; Popcorn
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row" style="background-color:#C4C4C4;">
+                    <div class="col">
+                        <br>
+                        <p>
+                            <b>Mood:</b>
+                            <br> Absorbing,Intense,Original,Romantic
+                        </p>
+                        <br>
+                        <p>
+                            <b>Genre:</b>
+                            <br> Drama
+                        </p>
+                        <br>
+                        <p>
+                            <b>Sub-genres:</b>
+                            <br> Foreign,Drama,Foreign,Indie,Indie Drama
+                        </p>
+                        <br>
+                        <p>
+                            <b>Movies like:</b>
+                            <br> The Perks of Being a Wallflower
+                        </p>
+                        <br>
+                        <p>
+                            <b>Starring:</b>
+                            <br> Adèle Exarchopoulos, Léa Seydoux, Salim Kechiouche
+                        </p>
+                        <br>
+                        <p>
+                            <b>Directing:</b>
+                            <br> Abdellatif Kechiouche
+                        </p>
+                        <br>
+                        <p>
+                            <b>Writing:</b>
+                            <br> Abdellatif Kechiouche, Ghalia Lacroix
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <p></p>
+    </div>
+    <div class="row">
+        <p></p>
+    </div>
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="py-4 border-top">
+            <div class="row align-items-end">
+                <div class="col-sm-5">
+                    <p class="text-md-left pl-4" style="font-size:2em">
+                        <i class="fas fa-film"> MovieMe</i>
+
+                    </p>
+                    <p class="text-left">GET MOVIE SUGGESTIONS ON:</p>
+                    <p class="text-left">
+                        <i class="fab fa-facebook-square fa-2x pl-5 pr-2"></i>
+                        <i class="fab fa-instagram fa-2x px-2"></i>
+                        <i class="fab fa-twitter-square fa-2x pl-2"></i>
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <p>
+                        <ul class="list-unstyled text-left">
+                            <li>
+                                <a class="text-muted" href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Donate</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Advertising</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Privacy and Cookies</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Terms and Conditions</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group-row ">
+                        <h6>SIGN UP FOR MOVIE NEWS</h6>
+                    </div>
+                    <div class="input-group input-group-sm">
+                        <input type="email" class="form-control input-group-lg" id="email" placeholder="Your E-mail">
+                        <button type="submit" class="btn btn-default btn-sm">Submit</button>
+                    </div>
+                    <br>
+                    <p>©2018 MovieMe, all rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>

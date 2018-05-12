@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <title>MovieMe</title>
+    </head>
+
+    <body>
+        <!-- NavBar Code -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="homepage.html">
+                <i class="fas fa-film fa-lg"></i>
+                MovieMe
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link mx-2" href="homepage.html">Home</a>
+                    <a class="nav-item nav-link mx-2" href="discoverPage.html">Discover</a>
+                    <a class="nav-item nav-link active mx-2" href="moodPage.html">Mood</a>
+                    <a class="nav-item nav-link mx-2" href="#">Library</a>
+                </div>
+                <!--Search-->
+                <form class="form-inline">
+                    <input class="form-control form-control-sm mr-sm-1" type="search" placeholder="Search">
+                    <button type="button" class="btn btn-sm btn-dark mr-4"><i class="fas fa-search fa-lg"></i></button>
+                </form>
+                <!--User Dropdown-->
+                <div class="dropdown">
+                    <a class="btn btn-sm btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Notifications <span class="badge badge-info">3</span></a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--Breadcrumb-->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item active">Mood</li>
+            </ol>
+        </nav>
+
+        <!--Mood Wall-->    
+        <div class="jumbotron py-2">
+            <h1 class="display-4 text-center">Explore highly-rated, little-known films by mood:</h1>
+            <div class="container my-5">
+                <div class="row my-3">
+                    <button class="btn btn-primary btn-sm mx-2">Absorbing</button>
+                    <button class="btn btn-primary btn-sm mx-2">Affectionate</button>
+                    <button class="btn btn-primary btn-sm mx-2">Beautiful</button>
+                    <button class="btn btn-primary btn-sm mx-2">Captivating</button>
+                    <button class="btn btn-primary btn-sm mx-2">Challenging</button>
+                    <button class="btn btn-primary btn-sm mx-2">Charming</button>
+                    <button class="btn btn-primary btn-sm mx-2">Classy</button>
+                    <button class="btn btn-primary btn-sm mx-2">Dark</button>
+                    <button class="btn btn-primary btn-sm mx-2">Cute</button>
+                    <button class="btn btn-primary btn-sm mx-2">Depressing</button>
+                </div>
+
+                <div class="row my-3">
+                    <button class="btn btn-primary mx-2">Emotional</button>
+                    <button class="btn btn-primary mx-2">Downer</button>
+                    <button class="btn btn-primary mx-2">Raw</button>
+                    <button class="btn btn-primary mx-2">Easy</button>
+                    <button class="btn btn-primary mx-2">Fascinating</button>
+                    <button class="btn btn-primary mx-2">Goofy</button>
+                    <button class="btn btn-primary mx-2">Gripping</button>
+                    <button class="btn btn-primary mx-2">Happy</button>
+                    <button class="btn btn-primary mx-2">Heart-Warming</button>
+                    <button class="btn btn-primary mx-2">Lovely</button>
+                    <button class="btn btn-primary mx-2">Mysterious</button>
+                 </div>
+
+                <div class="row my-3">
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                    <button class="btn btn-primary mx-2">Mood</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--Footer-->
+        <div class="container">
+            <footer class="py-4 border-top">
+                <div class="row align-items-end">
+                    <div class="col-sm-5">
+                        <p class="text-md-left pl-4" style="font-size:2em">
+                            <i class="fas fa-film"> MovieMe</i>
+                            
+                        </p>
+                        <p class="text-left">GET MOVIE SUGGESTIONS ON:</p>
+                        <p class="text-left">
+                            <i class="fab fa-facebook-square fa-2x pl-5 pr-2"></i>
+                            <i class="fab fa-instagram fa-2x px-2"></i>
+                            <i class="fab fa-twitter-square fa-2x pl-2"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p>
+                            <ul class="list-unstyled text-left">
+                                <li><a class="text-muted" href="#">About</a></li>
+                                <li><a class="text-muted" href="#">Donate</a></li>
+                                <li><a class="text-muted" href="#">Advertising</a></li>
+                                <li><a class="text-muted" href="#">Privacy and Cookies</a></li>
+                                <li><a class="text-muted" href="#">Terms and Conditions</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group-row ">
+                            <h6>SIGN UP FOR MOVIE NEWS</h6>
+                        </div>
+                        <div class="input-group input-group-sm">
+                            <input type="email" class="form-control input-group-lg" id="email" placeholder="Your E-mail">
+                            <button type="submit" class="btn btn-default btn-sm">Submit</button>
+                        </div>
+                        <br>
+                        <p>©2018 MovieMe, all rights reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <title>MovieMe</title>
+    </head>
+
+    <body>
+        <!-- NavBar Code -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="homepage.html">
+                <i class="fas fa-film fa-lg"></i>
+                MovieMe
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link active mx-2" href="homepage.html">Home</a>
+                    <a class="nav-item nav-link mx-2" href="discoverPage.html">Discover</a>
+                    <a class="nav-item nav-link mx-2" href="moodPage.html">Mood</a>
+                    <a class="nav-item nav-link mx-2" href="#">Library</a>
+                </div>
+                <!--Search-->
+                <form class="form-inline">
+                    <input class="form-control form-control-sm mr-sm-1" type="search" placeholder="Search">
+                    <button type="button" class="btn btn-sm btn-dark mr-4"><i class="fas fa-search fa-lg"></i></button>
+                </form>
+                <!--User Dropdown-->
+                <div class="dropdown">
+                    <a class="btn btn-sm btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="homepageSignedIn.html">Sign In</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Notifications <span class="badge badge-info"></span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            
+        <!-- Jumbotron-->
+        <div class="jumbotron jumbotron-fluid pt-0 pb-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://i.imgur.com/9SQqOGc.png?1" alt="First slide">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1 class="h2 text-center pt-4">Find amazing movies and shows. Always know what to watch</h1>
+                <p class="lead text-center py-4">ΜovieΜe highlights good titles you haven't seen elsewhere. We recommend things that:</p>
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item mx-5">You will love <i class="fas fa-heart fa-lg ml-2"></i></li>
+                    <li class="list-inline-item mx-5">You havent seen yet <i class="fas fa-eye-slash fa-lg ml-2"></i></li>
+                    <li class="list-inline-item mx-5">Handpicked <i class="fas fa-hand-holding-heart fa-lg ml-2"></i></li>
+                </ul>
+                <!--Main Search-->
+                <form>
+                    <div class="form-row pt-4">
+                        <div class="col-md-11">
+                            <input type="search" class="form-control form-control-lg" placeholder="Enter name, genre, mood, year of release">
+                        </div>
+                        <button type="button" class="btn btn-dark col-md-1">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Cards Group-->
+        <div class="container">
+            <div class="card-deck">
+                <h4 class="py-3">TOP RATED</h4>
+                <!--Top Rated Row-->
+                <div class="row">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" href="#" style="height:370px" src="https://i.imgur.com/Af7IFL5.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Django<br>(2012)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/2fpvy1t.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Her<br>(2013)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/pA06P4Z.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mad Max<br>(2015)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/v5QHnWF.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Leon<br>(1994)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Pagination between movies-->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <!-- Cards Group-->
+        <div class="container">
+            <div class="card-deck">
+                <h4 class="py-3">TRENDING</h4>
+                <!--Trending Row-->
+                <div class="row">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/seQH2vt.png" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Whiplash<br>(2014)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/BkciRs1.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">La La Land<br>(2016)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/KDykGfW.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">The Shape of Water<br>(2017)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/svFRH1Q.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dunkirk<br>(2017)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Pagination between movies-->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Cards Group-->
+        <div class="container">
+            <div class="card-deck">
+                <h4 class="py-3">SUGGESTIONS</h4>
+                <!--Trending Row-->
+                <div class="row">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/C9KFt1J.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Get Out<br>(2017)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/zUtVoIc.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Blade Runner 2049<br>(2017)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/8U9pnYg.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Gone Girl<br>(2014)</h5>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" style="height:370px" src="https://i.imgur.com/IudUHeF.jpg" alt="Movie Poster">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Interstellar<br>(2014)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Pagination between movies-->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center pb-4">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!--Footer-->
+        <div class="container">
+            <footer class="py-4 border-top">
+                <div class="row align-items-end">
+                    <div class="col-sm-5">
+                        <p class="text-md-left pl-4" style="font-size:2em">
+                            <i class="fas fa-film"> MovieMe</i>
+                            
+                        </p>
+                        <p class="text-left">GET MOVIE SUGGESTIONS ON:</p>
+                        <p class="text-left">
+                            <i class="fab fa-facebook-square fa-2x pl-5 pr-2"></i>
+                            <i class="fab fa-instagram fa-2x px-2"></i>
+                            <i class="fab fa-twitter-square fa-2x pl-2"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p>
+                            <ul class="list-unstyled text-left">
+                                <li><a class="text-muted" href="#">About</a></li>
+                                <li><a class="text-muted" href="#">Donate</a></li>
+                                <li><a class="text-muted" href="#">Advertising</a></li>
+                                <li><a class="text-muted" href="#">Privacy and Cookies</a></li>
+                                <li><a class="text-muted" href="#">Terms and Conditions</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group-row ">
+                            <h6>SIGN UP FOR MOVIE NEWS</h6>
+                        </div>
+                        <div class="input-group input-group-sm">
+                            <input type="email" class="form-control input-group-lg" id="email" placeholder="Your E-mail">
+                            <button type="submit" class="btn btn-default btn-sm">Submit</button>
+                        </div>
+                        <br>
+                        <p>©2018 MovieMe, all rights reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
